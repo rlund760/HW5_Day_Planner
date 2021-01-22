@@ -30,7 +30,7 @@ $(document).ready(function () {
             else if (parseInt(intHourDay) > parseInt(intCurrentHours)) {
                 $(this).addClass("future");
                 $(this).removeClass("present");
-                $(this).removeClass("past");
+                $(this).removeClass("past"); 
             }
             else if (parseInt(intHourDay) === parseInt(intCurrentHours)) {
                 $(this).addClass("present");
